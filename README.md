@@ -30,6 +30,6 @@ As an example, the script may be modified in the following two ways:
 <ol>
 <li>``The script can load different file names and from other drive or folder locations to be read by editing the `file_to_load = os.path.join` line by changing the file location and/or file name within the ``("new file name")` at the end of this line of code.`` 
 
-<li>``Second, the output of the election results can be sent to a different file name or file location by editing the script line of code for `txt_file.write(new_output_file name)`.  This will allow for saving the output in a file name and type as desired.`` </li>
+<li>Second, the output of the election results can be sent to a different file name or file location by editing the script line of code for `txt_file.write(new_output_file name).`  This will allow for saving the output in a file name and type as desired. </li>
 
 
