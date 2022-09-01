@@ -10,7 +10,7 @@ The purpose of this project is to create a Python script that will run using dat
 The Python script assesed the data file provided by the client by reading the file, analyzing the content, then organizing the data and tabulating it on a per candidate, per district/county and voter ID detail to calculate the necessary outputs as described in the purpose.  When the script is ran using the inpu file, it reads and outputs both a terminal result and a printed result to a file.  The final results of the script for this election data producted the following outputs:
 
 <ul>
-<li> -Total Votes<br>
+-Total Votes<br>
 -County Votes<br>
 -County name<br>
 -Largest County Tournout<br>
