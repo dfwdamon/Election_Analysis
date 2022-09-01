@@ -58,8 +58,10 @@ with open(file_to_save, "w") as txt_file:
             f"Total Votes. {total_votes:,}\n"
             f"__________________________\n")
     print(election_results, end ="")
+
     # Save the final vote count to the text file.
     txt_file.write(election_results)
+
     #Determine the percent of votes for ea. candidate by looping thru the counts.
     #1. Iterate thru the candidate list.
     for candidate_name in candidate_votes:
